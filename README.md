@@ -1,5 +1,12 @@
 # GAN_for_Waste_Composition
 
+SampleGAN.py --> GAN Model
+SampleGAN_Trained_Discriminator.pth --> Trained Discriminator Model
+SampleGAN_Trained_Generator.pth --> Trained Generator Model
+waste_example.csv --> Imported CSV File
+GANPCA_good.png --> PCA graph of Imported vs Generated Data
+
+
 Developed a Deep Learning Model, specifically a Generative Adversarial Network, that took in a file containing # number of features, and generated similar data.
 - Generated data and visualizations were primarily analyzed using Jupyter Interative Window
 
