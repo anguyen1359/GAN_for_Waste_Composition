@@ -277,8 +277,8 @@ cluster_label = kmeans.labels_
 plt.title("PCA of Testing Data (Generated and Real) with Separate Colors")
 plt.xlabel("PCA1")
 plt.ylabel("PCA2")
-plt.scatter(transformed_testing[:1000, 0], transformed_testing[:1000, 1], label="Real Samples", color='blue')
-plt.scatter(transformed_testing[1000:, 0], transformed_testing[1000:, 1], label="Generated Samples", color='red')
+plt.scatter(transformed_testing[:len(composition_data), 0], transformed_testing[:len(composition_data), 1], label="Real Samples", color='blue')
+plt.scatter(transformed_testing[len(composition_data):, 0], transformed_testing[len(composition_data):, 1], label="Generated Samples", color='red')
 plt.legend()
 plt.show()
 
